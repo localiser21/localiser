@@ -1,0 +1,25 @@
+{
+    "name": "localiser-un-numero-de-telephone-portable-gratuitement/geolocaliserunportable",
+    "description": "Geo Localiser un téléphone portable grace a son numéro. ",
+    "homepage": "https://github.com/localiser21/localiser/",
+	"keywords": ["Geo Localiser un téléphone portable grace a son numéro."],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cliquez ici pour localiser votre téléphone",
+            "homepage": "http://zenmedia.top/geolocaliserunportable/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "movies123\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    },
+    "minimum-stability": "dev"
+}
